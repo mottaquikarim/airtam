@@ -1,0 +1,24 @@
+body {
+	background-color: black;
+	background-image: url('../images/splash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.social {
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+}
+
+.social .fb,
+.social .twitter {
+	display: inline-block;
+	margin: 10px;
+}
+
+@media only screen and ( max-width: 480px ) {
+	body {
+		background-position-y: -50%;
+	}
+}
